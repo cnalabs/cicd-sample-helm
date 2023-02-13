@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: IMAGE=348951190761.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-sample-app
+  repository: 348951190761.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-sample-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "b617227"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -18,7 +18,7 @@ serviceAccount:
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
   name: ""
-podAnnotations: {timestamp: "20230213052146"}
+podAnnotations: {timestamp: "20230213052620"}
 podSecurityContext: {}
 # fsGroup: 2000
 
