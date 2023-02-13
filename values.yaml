@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: 348951190761.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-sample-app
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
