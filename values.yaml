@@ -6,7 +6,7 @@ image:
   repository: 348951190761.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-sample-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "5b58e70"
+  tag: "b96527f"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -73,6 +73,6 @@ autoscaling:
 nodeSelector: {}
 tolerations: []
 affinity: {}
-timestamp: "1678939726"
+timestamp: "1678940866"
 imageRepo: 348951190761.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-sample-app
 imageTag: c7dee6e
