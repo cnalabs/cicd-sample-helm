@@ -73,6 +73,6 @@ autoscaling:
 nodeSelector: {}
 tolerations: []
 affinity: {}
-timestamp: "1678856764"
+timestamp: "1678939726"
 imageRepo: 348951190761.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-sample-app
-imageTag: 2d856c1
+imageTag: c7dee6e
